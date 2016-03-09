@@ -26,12 +26,10 @@ function getPlayerMove(move) {
     // If a `move` has a value, your expression should evaluate to that value.
     // However, if `move` is not specified / is null, your expression should equal `getInput()`.
     //var move = `getInput()`;
-    if (move == 7) {
+    //if (move == 7) {
         //do something
-    }
+return move || getInput;
 
-    // return move || getInput;
-}
 
 function getComputerMove(move) {
     // Write an expression that operates on a variable called `move`
